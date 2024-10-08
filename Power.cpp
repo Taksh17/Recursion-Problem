@@ -6,10 +6,6 @@ int powerfun(int n,int p){
     }
     return n*powerfun(n,p-1);
 }
-
-
-
-
 int main(){
     int n;
     cout<<"enter the number";
